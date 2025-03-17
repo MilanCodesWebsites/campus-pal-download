@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Install CampusPal on iOS - CampusPal</title>
+  <meta name="description" content="Follow these simple steps to install CampusPal on your iOS device.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loading-logo-container">
+      <div class="loading-logo">
+        <img src="imgs/logo.gif" alt="CampusPal Logo" width="60" height="60" class="loading-logo-img">
+      </div>
+      <div class="loading-spinner"></div>
+    </div>
+    <h1 class="loading-title">CampusPal</h1>
+    <div class="loading-progress-container">
+      <div class="loading-progress"></div>
+    </div>
+    <p class="loading-text">Loading your campus experience...</p>
+  </div>
+
+  <div id="content" class="content hidden">
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-container">
+        <a href="index.html" class="back-link">
+          <i data-lucide="chevron-left"></i>
+          <span>Back to Home</span>
+        </a>
+        
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          <div class="moon-icon">
+            <i data-lucide="moon"></i>
+          </div>
+          <div class="sun-icon">
+            <i data-lucide="sun"></i>
+          </div>
+        </button>
+      </div>
+    </header>
+
+    <main class="ios-install-main">
+      <div class="container">
+        <div class="ios-install-content">
+          <h1 class="ios-install-title">Install CampusPal on iOS</h1>
+          <p class="ios-install-description">Follow these simple steps to install CampusPal on your iOS device:</p>
+
+          <div class="ios-install-steps">
+            <!-- Step 1 -->
+            <div class="ios-install-step">
+              <div class="ios-install-step-content">
+                <div class="ios-install-step-badge">
+                  <i data-lucide="smartphone"></i>
+                  <span>Step 1</span>
+                </div>
+                <h2 class="ios-install-step-title">Open Safari and visit campuspal.com/download</h2>
+                <p class="ios-install-step-description">Launch Safari on your iOS device and navigate to our download page at campuspal.com/download.</p>
+              </div>
+              <div class="ios-install-step-image">
+                <div class="ios-device">
+                  <div class="ios-device-overlay"></div>
+                  <img src="imgs/visit.jpg" alt="Open Safari" class="ios-device-screen">
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="ios-install-step">
+              <div class="ios-install-step-content">
+                <div class="ios-install-step-badge">
+                  <i data-lucide="share"></i>
+                  <span>Step 2</span>
+                </div>
+                <h2 class="ios-install-step-title">Click "Download for iOS"</h2>
+                <p class="ios-install-step-description">Tap the "Download for iOS" button on the download page to begin the installation process.</p>
+              </div>
+              <div class="ios-install-step-image">
+                <div class="ios-device">
+                  <div class="ios-device-overlay"></div>
+                  <img src="imgs/add home.jpg" alt="Click Download" class="ios-device-screen">
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="ios-install-step">
+              <div class="ios-install-step-content">
+                <div class="ios-install-step-badge">
+                  <i data-lucide="plus-square"></i>
+                  <span>Step 3</span>
+                </div>
+                <h2 class="ios-install-step-title">Add to Home Screen</h2>
+                <p class="ios-install-step-description">Tap the share icon at the bottom of the screen, then scroll down and tap "Add to Home Screen".</p>
+              </div>
+              <div class="ios-install-step-image">
+                <div class="ios-device">
+                  <div class="ios-device-overlay"></div>
+                  <img src="imgs/click add.jpg" alt="Add to Home Screen" class="ios-device-screen">
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="ios-install-step">
+              <div class="ios-install-step-content">
+                <div class="ios-install-step-badge">
+                  <i data-lucide="layout"></i>
+                  <span>Step 4</span>
+                </div>
+                <h2 class="ios-install-step-title">Open and Start Using</h2>
+                <p class="ios-install-step-description">Tap the CampusPal icon on your home screen to open the app and start enjoying all its features!</p>
+              </div>
+              <div class="ios-install-step-image">
+                <div class="ios-device">
+                  <div class="ios-device-overlay"></div>
+                  <img src="imgs/open and use.jpg" alt="Open and Use" class="ios-device-screen">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ios-install-action">
+            <a href="index.html" class="btn btn-primary">Return to Home Page</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer footer-simple">
+      <div class="container">
+        <p class="copyright">© <span id="current-year"></span> CampusPal. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

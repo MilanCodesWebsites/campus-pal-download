@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusPal - Your Ultimate Campus Companion</title>
+  <link rel="shortcut icon" href="https://otiktpyazqotihijbwhm.supabase.co/storage/v1/object/public/images/672cb9f3-42fb-4f63-9f18-67cfd0480170-favicon%20(2).png" type="image/x-icon">
+  <meta name="description" content="CampusPal Download" />
+  <meta name="author" content="Prince" />
+  <meta property="og:image" content="https://otiktpyazqotihijbwhm.supabase.co/storage/v1/object/public/images/672cb9f3-42fb-4f63-9f18-67cfd0480170-favicon%20(2).png" />
+  <!-- Font Awesome CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <meta name="description" content="Stay connected, stay organized, and make the most of campus life with CampusPal.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loading-logo-container">
+      <div class="loading-logo">
+        <img src="imgs/logo2.gif" alt="CampusPal Logo" width="60" height="60" class="loading-logo-img">
+      </div>
+      <div class="loading-spinner"></div>
+    </div>
+    <h1 class="loading-title">CampusPal</h1>
+    <div class="loading-progress-container">
+      <div class="loading-progress"></div>
+    </div>
+    <p class="loading-text">Loading your campus experience...</p>
+  </div>
+
+  <div id="content" class="content hidden">
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-container">
+        <div class="logo">
+          <img src="imgs/logo.gif" alt="CampusPal Logo" width="40" height="40" class="logo-img">
+          <span class="logo-text">CampusPal</span>
+        </div>
+        
+        <nav class="nav">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        
+        <div class="header-actions">
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+            <div class="moon-icon">
+              <i data-lucide="moon"></i>
+            </div>
+            <div class="sun-icon">
+              <i data-lucide="sun"></i>
+            </div>
+          </button>
+          <button class="download-btn">
+            <i data-lucide="download" class="download-icon"></i>
+            Download Now
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-bg"></div>
+        
+        <!-- Animated Wave -->
+        <div class="wave-container">
+          <div class="wave"></div>
+        </div>
+        
+        <div class="container hero-container">
+          <div class="hero-content">
+            <div class="badge" style="width: fit-content;">
+              <i data-lucide="bell" class="badge-icon"></i>
+              <span>Campus life made simple</span>
+            </div>
+            <h1 class="hero-title">Your Ultimate Campus Companion</h1>
+            <p class="hero-description">Transforming Student Life with Smart Digital Solutions.</p>
+            <div class="hero-buttons">
+              <a href="campuspal.apk" download class="btn btn-primary">
+                <i class="fa-brands fa-android"></i>
+                Download for Android
+              </a>
+              <a href="ios-install.html" class="btn btn-outline">
+                <i class="fa-brands fa-apple" class="btn-icon"></i>
+                Download for iOS
+              </a>
+            </div>
+          </div>
+          
+          <div class="hero-image">
+            <div class="hero-image-glow"></div>
+            <div class="hero-image-container">
+              <div class="hero-image-shadow"></div>
+              <img src="imgs/hero.jpg" alt="CampusPal App Mockup" class="hero-image-phone">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features" class="features">
+        <div class="container">
+          <div class="section-header">
+            <div class="badge">
+              <i data-lucide="coffee" class="badge-icon"></i>
+              <span>Powerful Features</span>
+            </div>
+            <h2 class="section-title">Why Choose CampusPal?</h2>
+            <p class="section-description">Designed specifically for students, CampusPal helps you navigate campus life with ease.</p>
+          </div>
+          
+          <div class="features-grid">
+            <!-- Feature 1 -->
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i data-lucide="calendar"></i>
+              </div>
+              <h3 class="feature-title">Timetable and Event Management</h3>
+              <p class="feature-description">Stay ahead with a sleek, organized planner for classes, deadlines, and campus events.</p>
+            </div>
+            
+            <!-- Feature 2 -->
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i data-lucide="clock"></i>
+              </div>
+              <h3 class="feature-title">Task Manager</h3>
+              <p class="feature-description">Track assignments, set reminders, and never miss a deadline again.</p>
+            </div>
+            
+            <!-- Feature 3 -->
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i data-lucide="message-circle"></i>
+              </div>
+              <h3 class="feature-title">Chat & Community</h3>
+              <p class="feature-description">Connect with classmates, join study groups, and build your campus network through our secure messaging platform.</p>
+            </div>
+            
+            <!-- Feature 4 -->
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i data-lucide="notebook-pen"></i>
+              </div>
+              <h3 class="feature-title">Note-Taking and Recording</h3>
+              <p class="feature-description">Jot down key points or record lectures on the go—study smarter, not harder.</p>
+            </div>
+            
+            <!-- Feature 5 -->
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i data-lucide="book-open"></i>
+              </div>
+              <h3 class="feature-title">Study Resources</h3>
+              <p class="feature-description">Access study materials, notes, and resources shared by professors and fellow students.</p>
+            </div>
+            
+            <!-- Feature 6 -->
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i data-lucide="bot-message-square"></i>
+              </div>
+              <h3 class="feature-title">Omini AI</h3>
+              <p class="feature-description">Your AI-powered academic buddy, ready to simplify complex topics and boost your learning.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <div class="badge">
+              <i data-lucide="users" class="badge-icon"></i>
+              <span>Student Testimonials</span>
+            </div>
+            <h2 class="section-title">What Students Say</h2>
+            <p class="section-description">Hear from students who have transformed their campus experience with CampusPal.</p>
+          </div>
+          
+          <div class="testimonials-grid">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="testimonial-avatar">
+                  <img src="https://www.strasys.uk/wp-content/uploads/2022/02/Depositphotos_484354208_S.jpg" alt="Student" width="60" height="60">
+                </div>
+                <div class="testimonial-info">
+                  <h4 class="testimonial-name">Sarah Johnson</h4>
+                  <p class="testimonial-role">Computer Science, Junior</p>
+                </div>
+              </div>
+              <p class="testimonial-text">"CampusPal has completely changed how I manage my schedule. I never miss assignments or club meetings anymore!"</p>
+            </div>
+            
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="testimonial-avatar">
+                  <img src="https://www.strasys.uk/wp-content/uploads/2022/02/Depositphotos_484354208_S.jpg" alt="Student" width="60" height="60">
+                </div>
+                <div class="testimonial-info">
+                  <h4 class="testimonial-name">Michael Chen</h4>
+                  <p class="testimonial-role">Business, Sophomore</p>
+                </div>
+              </div>
+              <p class="testimonial-text">"The campus map feature saved me during my first semester. I found all my classes without getting lost once!"</p>
+            </div>
+            
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="testimonial-avatar">
+                  <img src="https://www.strasys.uk/wp-content/uploads/2022/02/Depositphotos_484354208_S.jpg" alt="Student" width="60" height="60">
+                </div>
+                <div class="testimonial-info">
+                  <h4 class="testimonial-name">Aisha Patel</h4>
+                  <p class="testimonial-role">Biology, Senior</p>
+                </div>
+              </div>
+              <p class="testimonial-text">"The study resources section helped me ace my finals. Being able to share notes with classmates is a game-changer!"</p>
+            </div>
+          </div>
+          
+          <div class="testimonials-action">
+            <button class="btn btn-primary" style="border: none;">
+              <span>Read More Success Stories</span>
+              <i data-lucide="arrow-right" class="btn-icon-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="imgs/logo.gif" alt="CampusPal Logo" width="40" height="40" class="footer-logo-img">
+              <span class="footer-logo-text">CampusPal</span>
+            </div>
+            <p class="footer-tagline">Your ultimate companion for navigating campus life with ease.</p>
+          </div>
+          
+          <div class="footer-links">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-nav">
+              <li><a href="#" class="footer-link">Home</a></li>
+              <li><a href="#features" class="footer-link">Features</a></li>
+              <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
+              <li><a href="#contact" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-links">
+            <h3 class="footer-heading">Resources</h3>
+            <ul class="footer-nav">
+              <li><a href="faq.html" class="footer-link">FAQs</a></li>
+              <li><a href="terms.html" class="footer-link">Terms of Service</a></li>
+              <li><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-social">
+            <h3 class="footer-heading">Connect With Us</h3>
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <i data-lucide="facebook"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i data-lucide="twitter"></i>
+              </a>
+              <a href="#" class="social-link">
+                <i data-lucide="instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p class="copyright">© <span id="current-year"></span> CampusPal. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
